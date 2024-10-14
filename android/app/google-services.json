@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812706414588",
+    "project_id": "yuhouse-8b38a",
+    "storage_bucket": "yuhouse-8b38a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812706414588:android:94851ee99183ce8e85fc79",
+        "android_client_info": {
+          "package_name": "yuhouse.utr.mx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBefSzUC-6Lr8NkqYu6qANeXpJnlbPeRuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
