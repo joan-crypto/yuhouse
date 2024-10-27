@@ -47,9 +47,9 @@ class _RegisterState extends State<Register> {
       } on FirebaseAuthException catch (e) {
         String errorMessage;
         if (e.code == 'weak-password') {
-          errorMessage = 'La contraseña proporcionada es demasiado débil.';
+          errorMessage = 'La contraseña proporcionada es demasiado débil';
         } else if (e.code == 'email-already-in-use') {
-          errorMessage = 'Ya existe una cuenta con este correo electrónico.';
+          errorMessage = 'Ya existe una cuenta con este correo electrónico';
         } else {
           errorMessage =
               'Ocurrió un error al registrar: ${e.message} (Código: ${e.code})';
